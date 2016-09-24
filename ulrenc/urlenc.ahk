@@ -1,3 +1,7 @@
+; the urlenc shortcut takes the contents of the clipboard and replaces with a hyphen the following characters: :;,!./\#()[]{}'*" It also replaces multiple consecutive spaces with a single hyphen.
+; the urldec shortcut takes the contents of the clipboard and replaces all hyphens with spaces
+; to use either of these shortcuts make sure you have text copied in your clipboard then write the shortcut in the application where you want to have the transformation.
+
 :*:urlenc::
 	delay := 500	
 	ClipWait
